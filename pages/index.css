@@ -77,22 +77,22 @@ body {
     flex-direction: row;
 }
 
-.social>div>img {
+.social>div> a >img {
     width: 30px;
+    cursor: pointer;
 }
 
 .social_1 {
     position: absolute;
     padding: 450px 100px;
     top: 0;
-    /* Para manter o alinhamento vertical */
+    cursor: pointer;
 }
 
 .social_2 {
     position: absolute;
     padding: 450px 170px;
     top: 0;
-    /* Para manter o alinhamento vertical */
 }
 
 
